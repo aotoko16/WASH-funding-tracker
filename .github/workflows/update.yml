@@ -25,11 +25,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python pipeline/fetch.py
 
-      - name: Commit updated data
+      - name: Commit and push
         run: |
           git config user.name "wash-tracker-bot"
           git config user.email "actions@github.com"
           git add data/data.json
-          git diff --cached --quiet || git commit -m "Data update $(date -u +%Y-%m-%d)"
-          git pull --rebase origin main
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Data update $(date -u +%Y-%m-%d)"
+            git push
+          fi
