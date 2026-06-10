@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WASH Funding Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f7f8fa; --surface: #fff; --surface2: #f0f2f5;
+    --border: rgba(0,0,0,0.08); --border-mid: rgba(0,0,0,0.14);
+    --text: #111827; --text2: #4b5563; --text3: #9ca3af;
+    --teal: #0e9f6e; --teal-light: #d1fae5; --teal-dark: #065f46;
+    --blue: #1a56db; --blue-light: #e1effe; --blue-dark: #1e429f;
+    --amber: #d97706; --amber-light: #fef3c7;
+    --red: #dc2626; --red-light: #fee2e2;
+    --purple: #7c3aed; --purple-light: #ede9fe;
+    --radius: 10px; --radius-sm: 6px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1117; --surface: #1a1d27; --surface2: #242736;
+      --border: rgba(255,255,255,0.08); --border-mid: rgba(255,255,255,0.14);
+      --text: #f1f5f9; --text2: #94a3b8; --text3: #64748b;
+      --teal-light: rgba(14,159,110,0.15); --teal-dark: #34d399;
+      --blue-light: rgba(26,86,219,0.18); --blue-dark: #93c5fd;
+      --amber-light: rgba(217,119,6,0.15); --red-light: rgba(220,38,38,0.15);
+      --purple-light: rgba(124,58,237,0.18);
+    }
+  }
+  body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.6; }
+  .header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 2rem; position: sticky; top: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; height: 56px; gap: 1rem; }
+  .logo { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 15px; }
+  .logo-icon { width: 28px; height: 28px; background: var(--teal); border-radius: 7px; display: flex; align-items: center; justify-content: center; font-size: 15px; }
+  .tag { font-size: 11px; padding: 3px 8px; border-radius: 20px; background: var(--teal-light); color: var(--teal-dark); font-weight: 500; }
+  .updated { font-size: 12px; color: var(--text3); }
+  .main { max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem; }
+  .sources-note { font-size: 12px; color: var(--text3); margin-bottom: 1rem; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .src-chip { padding: 2px 8px; border-radius: 12px; background: var(--surface2); border: 1px solid var(--border); font-size: 11px; color: var(--text2); }
+  .controls { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; display: flex; align-items: flex-end; gap: 12px; flex-wrap: wrap; margin-bottom: 1.25rem; box-shadow: var(--shadow); }
+  .cg { display: flex; flex-direction: column; gap: 4px; }
+  .cg label { font-size: 11px; font-weight: 500; color: var(--text3); text-transform: uppercase; letter-spacing: 0.06em; }
+  .cg select, .cg input { padding: 7px 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-mid); background: var(--surface); color: var(--text); font-size: 13px; font-family: inherit; min-width: 150px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; max-width: 480px; }
+  .chip { padding: 5px 11px; border-radius: 20px; font-size: 12px; border: 1px solid var(--border-mid); cursor: pointer; background: transparent; color: var(--text2); font-family: inherit; }
+  .chip.active { background: var(--teal); border-color: var(--teal); color: #fff; font-weight: 500; }
+  .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 1.25rem; }
+  .metric { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; box-shadow: var(--shadow); }
+  .m-label { font-size: 11px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+  .m-val { font-size: 26px; font-weight: 600; line-height: 1; }
+  .m-val.red { color: var(--red); } .m-val.amber { color: var(--amber); } .m-val.teal { color: var(--teal); }
+  .m-sub { font-size: 11px; color: var(--text3); margin-top: 3px; }
+  .list { display: flex; flex-direction: column; gap: 10px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; box-shadow: var(--shadow); }
+  .card.u-critical { border-left: 3px solid var(--red); }
+  .card.u-soon { border-left: 3px solid var(--amber); }
+  .card.u-ok { border-left: 3px solid var(--teal); }
+  .card.u-unknown { border-left: 3px solid var(--text3); }
+  .card-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 8px; flex-wrap: wrap; }
+  .title { font-size: 15px; font-weight: 600; line-height: 1.4; flex: 1; min-width: 220px; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .badge { font-size: 11px; font-weight: 500; padding: 3px 9px; border-radius: 20px; white-space: nowrap; }
+  .b-src { background: var(--purple-light); color: var(--purple); }
+  .b-donor { background: var(--blue-light); color: var(--blue-dark); border: 1px solid var(--blue); }
+  .b-elig { background: var(--teal-light); color: var(--teal-dark); }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
+  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+  .sec { background: var(--surface2); border-radius: var(--radius-sm); padding: 10px 12px; }
+  .sec-lbl { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text3); margin-bottom: 4px; }
+  .sec-txt { font-size: 13px; color: var(--text2); line-height: 1.55; }
+  .ns { color: var(--text3); font-style: italic; }
+  .footer-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 10px; }
+  .deadline { font-size: 13px; font-weight: 600; }
+  .d-red { color: var(--red); } .d-amber { color: var(--amber); } .d-teal { color: var(--teal); } .d-gray { color: var(--text3); font-weight: 400; }
+  .btn { display: inline-flex; align-items: center; gap: 5px; padding: 7px 14px; border-radius: var(--radius-sm); background: var(--teal); color: #fff; font-size: 12px; font-weight: 500; text-decoration: none; }
+  .btn:hover { opacity: 0.85; }
+  .state { text-align: center; padding: 4rem 2rem; color: var(--text3); }
+  .spin { display: inline-block; width: 22px; height: 22px; border: 2px solid var(--border-mid); border-top-color: var(--teal); border-radius: 50%; animation: s 0.7s linear infinite; margin-bottom: 10px; }
+  @keyframes s { to { transform: rotate(360deg); } }
+  @media (max-width: 768px) { .header, .main { padding-left: 1rem; padding-right: 1rem; } }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div style="display:flex;align-items:center;gap:10px;">
+    <div class="logo"><div class="logo-icon">💧</div> WASH Funding Tracker</div>
+    <span class="tag">East Asia &amp; Pacific</span>
+  </div>
+  <span class="updated" id="updated"></span>
+</header>
+
+<main class="main">
+  <div class="sources-note">
+    <span>Sources:</span>
+    <span class="src-chip">Grants.gov</span>
+    <span class="src-chip">EU F&T Portal</span>
+    <span class="src-chip">UNGM</span>
+    <span class="src-chip">UN Partner Portal</span>
+    <span class="src-chip">Gates / ADB / World Bank</span>
+    <span class="src-chip">ReliefWeb</span>
+    <span>· All links verified daily · Deadlines shown only when stated by the donor</span>
+  </div>
+
+  <div class="controls">
+    <div class="cg">
+      <label>Source</label>
+      <select id="f-src" onchange="render()"><option value="">All sources</option></select>
+    </div>
+    <div class="cg">
+      <label>Deadline</label>
+      <select id="f-dl" onchange="render()">
+        <option value="">Any</option>
+        <option value="7">≤ 7 days</option>
+        <option value="14">≤ 14 days</option>
+        <option value="30">≤ 30 days</option>
+        <option value="known">Has confirmed deadline</option>
+      </select>
+    </div>
+    <div class="cg">
+      <label>Search</label>
+      <input id="f-q" placeholder="Keywords…" oninput="render()">
+    </div>
+    <div class="cg">
+      <label>My Country Office</label>
+      <div class="chips" id="chips"></div>
+    </div>
+  </div>
+
+  <div class="metrics">
+    <div class="metric"><div class="m-label">Open & verified</div><div class="m-val" id="m1">—</div><div class="m-sub">all links checked</div></div>
+    <div class="metric"><div class="m-label">≤ 7 days</div><div class="m-val red" id="m2">—</div><div class="m-sub">confirmed deadlines</div></div>
+    <div class="metric"><div class="m-label">≤ 30 days</div><div class="m-val amber" id="m3">—</div><div class="m-sub">confirmed deadlines</div></div>
+    <div class="metric"><div class="m-label">Relevant to my CO</div><div class="m-val teal" id="m4">—</div><div class="m-sub">select a country</div></div>
+  </div>
+
+  <div class="list" id="list"><div class="state"><div class="spin"></div><div>Loading verified data…</div></div></div>
+</main>
+
+<script>
+const COUNTRIES = ['Myanmar','Cambodia','Laos','Viet Nam','Philippines','Indonesia','Timor-Leste','Papua New Guinea','Fiji','Solomon Islands','Vanuatu','Samoa','Mongolia','DPR Korea'];
+let DATA = [], country = '';
+
+async function boot() {
+  // chips
+  const wrap = document.getElementById('chips');
+  const mk = (label, val) => {
+    const b = document.createElement('button');
+    b.className = 'chip' + (val === '' ? ' active' : '');
+    b.textContent = label; b.dataset.v = val;
+    b.onclick = () => { country = val; document.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.v === val)); render(); };
+    wrap.appendChild(b);
+  };
+  mk('All COs', '');
+  COUNTRIES.forEach(c => mk(c, c));
+
+  try {
+    const r = await fetch('data/data.json?t=' + Date.now());
+    const j = await r.json();
+    DATA = j.opportunities || [];
+    const d = new Date(j.generated_at);
+    document.getElementById('updated').textContent = 'Data updated ' + d.toLocaleString('en-GB', {day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+    // source filter options
+    const srcs = [...new Set(DATA.map(o => o.source_system))];
+    const sel = document.getElementById('f-src');
+    srcs.forEach(s => { const op = document.createElement('option'); op.value = s; op.textContent = s; sel.appendChild(op); });
+    render();
+  } catch(e) {
+    document.getElementById('list').innerHTML = '<div class="state">Could not load data/data.json.<br>Run the pipeline once: <code>python pipeline/fetch.py</code></div>';
+  }
+}
+
+function relevantToCountry(o) {
+  if (!country) return true;
+  const c = country.toLowerCase();
+  const explicit = (o.eligible_countries || []).map(x => x.toLowerCase());
+  if (explicit.length) return explicit.some(x => x.includes(c) || c.includes(x)) || explicit.some(x => /global|worldwide|all/.test(x));
+  const blob = ((o.countries||[]).join(' ') + ' ' + o.title + ' ' + (o.eligibility||'')).toLowerCase();
+  if (blob.includes(c)) return true;
+  return /global|worldwide|asia|pacific|regional|developing countries/.test(blob);
+}
+
+function render() {
+  const src = document.getElementById('f-src').value;
+  const dl = document.getElementById('f-dl').value;
+  const q = document.getElementById('f-q').value.toLowerCase().trim();
+
+  let rows = DATA.filter(o => {
+    if (src && o.source_system !== src) return false;
+    if (dl === 'known' && o.days_left == null) return false;
+    if (dl && dl !== 'known' && (o.days_left == null || o.days_left > +dl)) return false;
+    if (q && !(o.title + ' ' + (o.donor||'') + ' ' + (o.requirements_summary||'')).toLowerCase().includes(q)) return false;
+    if (!relevantToCountry(o)) return false;
+    return true;
+  });
+
+  document.getElementById('m1').textContent = rows.length;
+  document.getElementById('m2').textContent = rows.filter(o => o.days_left != null && o.days_left <= 7).length;
+  document.getElementById('m3').textContent = rows.filter(o => o.days_left != null && o.days_left <= 30).length;
+  document.getElementById('m4').textContent = country ? rows.length : '—';
+
+  const list = document.getElementById('list');
+  if (!rows.length) { list.innerHTML = '<div class="state">No opportunities match the current filters.</div>'; return; }
+
+  list.innerHTML = rows.map(o => {
+    const dlh = o.days_left;
+    const uClass = dlh == null ? 'u-unknown' : dlh <= 7 ? 'u-critical' : dlh <= 30 ? 'u-soon' : 'u-ok';
+    const dClass = dlh == null ? 'd-gray' : dlh <= 7 ? 'd-red' : dlh <= 30 ? 'd-amber' : 'd-teal';
+    const dText = dlh == null
+      ? 'Deadline not stated by donor — check the source page'
+      : (o.deadline + ' · ' + (dlh === 0 ? 'TODAY' : dlh === 1 ? 'tomorrow' : dlh + ' days left'));
+    const elig = o.eligibility ? esc(o.eligibility) : '<span class="ns">Not specified — verify on source page</span>';
+    const req = o.requirements_summary ? esc(o.requirements_summary) : '<span class="ns">Not specified — verify on source page</span>';
+    const budget = o.budget ? `<span class="badge b-elig">💰 ${esc(o.budget)}</span>` : '';
+    const unBadge = o.un_eligible === true ? '<span class="badge b-elig">✓ UN-eligible</span>' : '';
+    return `
+<div class="card ${uClass}">
+  <div class="card-top">
+    <div class="title">${esc(o.title)}</div>
+    <div class="badges">
+      <span class="badge b-donor">${esc(o.donor || 'Unknown donor')}</span>
+      <span class="badge b-src">${esc(o.source_system)}</span>
+      ${budget}${unBadge}
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="sec"><div class="sec-lbl">Eligibility</div><div class="sec-txt">${elig}</div></div>
+    <div class="sec"><div class="sec-lbl">Key requirements</div><div class="sec-txt">${req}</div></div>
+  </div>
+  <div class="footer-row">
+    <span class="deadline ${dClass}">📅 ${dText}</span>
+    <a class="btn" href="${o.url}" target="_blank" rel="noopener">Open source page ↗</a>
+  </div>
+</div>`;
+  }).join('');
+}
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+boot();
+</script>
+</body>
+</html>
