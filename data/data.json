@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T09:58:33.279848+00:00",
+  "generated_at": "2026-06-10T23:19:19.289812+00:00",
   "source_stats": {
     "Grants.gov (USAID/BHA, US federal)": 69,
     "EU Funding & Tenders Portal": 25,
@@ -153,18 +153,6 @@
       "opportunity_number": "G26AS00120",
       "wash_relevance": "medium",
       "days_left": 19
-    },
-    {
-      "source_system": "Grants.gov",
-      "title": "Great Lakes Biology Monitoring Program: Phytoplankton and Chlorophyll-a Components",
-      "donor": "Environmental Protection Agency",
-      "countries": [],
-      "published": "05/01/2026",
-      "deadline": "2026-06-30",
-      "url": "https://www.grants.gov/search-results-detail/362158",
-      "opportunity_number": "EPA-R5-GL2026-PCA",
-      "wash_relevance": "medium",
-      "days_left": 20
     },
     {
       "source_system": "Grants.gov",
@@ -438,23 +426,23 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "By fishers, for fishers: co-management of marine and freshwaters ecosystems and resources",
-      "donor": "European Commission",
-      "countries": [],
-      "published": "2026-02-04T00:00:00.000+0000",
-      "deadline": "2026-09-23",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-03",
-      "wash_relevance": "medium",
-      "days_left": 105
-    },
-    {
-      "source_system": "EU Funding & Tenders Portal",
       "title": "Regional  (sea-basins) components of the EU Digital Twin Ocean",
       "donor": "European Commission",
       "countries": [],
       "published": "2026-02-04T00:00:00.000+0000",
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-05",
+      "wash_relevance": "medium",
+      "days_left": 105
+    },
+    {
+      "source_system": "EU Funding & Tenders Portal",
+      "title": "Large-scale demonstration for mapping the distribution and condition of marine habitats to implement the Nature Restoration Regulation",
+      "donor": "European Commission",
+      "countries": [],
+      "published": "2026-02-04T00:00:00.000+0000",
+      "deadline": "2026-09-23",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-01",
       "wash_relevance": "medium",
       "days_left": 105
     },
@@ -471,12 +459,12 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "Large-scale demonstration for mapping the distribution and condition of marine habitats to implement the Nature Restoration Regulation",
+      "title": "By fishers, for fishers: co-management of marine and freshwaters ecosystems and resources",
       "donor": "European Commission",
       "countries": [],
       "published": "2026-02-04T00:00:00.000+0000",
       "deadline": "2026-09-23",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-01",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-03",
       "wash_relevance": "medium",
       "days_left": 105
     },
@@ -575,17 +563,6 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "Large-scale demonstration of protection, restoration and management of blue forest ecosystems in European sea basins",
-      "donor": "European Commission",
-      "countries": [],
-      "published": "2027-02-09T00:00:00.000+0000",
-      "deadline": "2027-09-21",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-05",
-      "wash_relevance": "medium",
-      "days_left": 468
-    },
-    {
-      "source_system": "EU Funding & Tenders Portal",
       "title": "Increasing riparian and coastal areas resilience to climate change, including in waterfront cities and islands.",
       "donor": "European Commission",
       "countries": [],
@@ -603,6 +580,17 @@
       "published": "2027-02-09T00:00:00.000+0000",
       "deadline": "2027-09-21",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-04",
+      "wash_relevance": "medium",
+      "days_left": 468
+    },
+    {
+      "source_system": "EU Funding & Tenders Portal",
+      "title": "Large-scale demonstration of protection, restoration and management of blue forest ecosystems in European sea basins",
+      "donor": "European Commission",
+      "countries": [],
+      "published": "2027-02-09T00:00:00.000+0000",
+      "deadline": "2027-09-21",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-05",
       "wash_relevance": "medium",
       "days_left": 468
     },
@@ -663,12 +651,12 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "Strengthening evidence-based policies for the resilience of European agriculture and forestry and related supply chains against crises and systemic risks",
+      "title": "Governance, sustainable development and international politics of a future ice-free Arctic",
       "donor": "European Commission",
       "countries": [],
       "published": "2027-04-20T00:00:00.000+0000",
       "deadline": "2027-09-23",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-02",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01",
       "wash_relevance": "medium",
       "days_left": 470
     },
@@ -696,14 +684,26 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "Governance, sustainable development and international politics of a future ice-free Arctic",
+      "title": "Strengthening evidence-based policies for the resilience of European agriculture and forestry and related supply chains against crises and systemic risks",
       "donor": "European Commission",
       "countries": [],
       "published": "2027-04-20T00:00:00.000+0000",
       "deadline": "2027-09-23",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-02",
       "wash_relevance": "medium",
       "days_left": 470
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "WaterSMART Cooperative Watershed Management Program",
+      "donor": "Bureau of Reclamation",
+      "countries": [],
+      "published": "06/10/2026",
+      "deadline": "2028-02-15",
+      "url": "https://www.grants.gov/search-results-detail/362755",
+      "opportunity_number": "R26AS00349",
+      "wash_relevance": "medium",
+      "days_left": 615
     },
     {
       "source_system": "Grants.gov",
@@ -995,18 +995,6 @@
     },
     {
       "source_system": "Grants.gov",
-      "title": "Engineering Environmental Resiliency (EER)",
-      "donor": "U.S. National Science Foundation",
-      "countries": [],
-      "published": "04/24/2026",
-      "deadline": null,
-      "url": "https://www.grants.gov/search-results-detail/362064",
-      "opportunity_number": "PD-26-370Y",
-      "wash_relevance": "medium",
-      "days_left": null
-    },
-    {
-      "source_system": "Grants.gov",
       "title": "Forecast to Publish a Funding Opportunity Announcement for the Consortium on the Neurobiology of Adolescent Drinking in Adulthood (NADIA) Research Resource (Collaborative U24 - Clinical Trials not allowed)",
       "donor": "National Institutes of Health",
       "countries": [],
@@ -1014,6 +1002,18 @@
       "deadline": null,
       "url": "https://www.grants.gov/search-results-detail/358998",
       "opportunity_number": "NOT-AA-25-007",
+      "wash_relevance": "medium",
+      "days_left": null
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "Engineering Environmental Resiliency (EER)",
+      "donor": "U.S. National Science Foundation",
+      "countries": [],
+      "published": "04/24/2026",
+      "deadline": null,
+      "url": "https://www.grants.gov/search-results-detail/362064",
+      "opportunity_number": "PD-26-370Y",
       "wash_relevance": "medium",
       "days_left": null
     },
