@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T09:29:43.093566+00:00",
+  "generated_at": "2026-06-10T09:40:49.718118+00:00",
   "source_stats": {
     "Grants.gov (USAID/BHA, US federal)": 69,
     "EU Funding & Tenders Portal": 25,
@@ -438,23 +438,23 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "By fishers, for fishers: co-management of marine and freshwaters ecosystems and resources",
-      "donor": "European Commission",
-      "countries": [],
-      "published": "2026-02-04T00:00:00.000+0000",
-      "deadline": "2026-09-23",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-03",
-      "wash_relevance": "medium",
-      "days_left": 105
-    },
-    {
-      "source_system": "EU Funding & Tenders Portal",
       "title": "Regional  (sea-basins) components of the EU Digital Twin Ocean",
       "donor": "European Commission",
       "countries": [],
       "published": "2026-02-04T00:00:00.000+0000",
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-05",
+      "wash_relevance": "medium",
+      "days_left": 105
+    },
+    {
+      "source_system": "EU Funding & Tenders Portal",
+      "title": "Large-scale demonstration for mapping the distribution and condition of marine habitats to implement the Nature Restoration Regulation",
+      "donor": "European Commission",
+      "countries": [],
+      "published": "2026-02-04T00:00:00.000+0000",
+      "deadline": "2026-09-23",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-01",
       "wash_relevance": "medium",
       "days_left": 105
     },
@@ -471,12 +471,12 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "Large-scale demonstration for mapping the distribution and condition of marine habitats to implement the Nature Restoration Regulation",
+      "title": "By fishers, for fishers: co-management of marine and freshwaters ecosystems and resources",
       "donor": "European Commission",
       "countries": [],
       "published": "2026-02-04T00:00:00.000+0000",
       "deadline": "2026-09-23",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-01",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-03",
       "wash_relevance": "medium",
       "days_left": 105
     },
@@ -575,17 +575,6 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "Large-scale demonstration of protection, restoration and management of blue forest ecosystems in European sea basins",
-      "donor": "European Commission",
-      "countries": [],
-      "published": "2027-02-09T00:00:00.000+0000",
-      "deadline": "2027-09-21",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-05",
-      "wash_relevance": "medium",
-      "days_left": 468
-    },
-    {
-      "source_system": "EU Funding & Tenders Portal",
       "title": "Increasing riparian and coastal areas resilience to climate change, including in waterfront cities and islands.",
       "donor": "European Commission",
       "countries": [],
@@ -603,6 +592,17 @@
       "published": "2027-02-09T00:00:00.000+0000",
       "deadline": "2027-09-21",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-04",
+      "wash_relevance": "medium",
+      "days_left": 468
+    },
+    {
+      "source_system": "EU Funding & Tenders Portal",
+      "title": "Large-scale demonstration of protection, restoration and management of blue forest ecosystems in European sea basins",
+      "donor": "European Commission",
+      "countries": [],
+      "published": "2027-02-09T00:00:00.000+0000",
+      "deadline": "2027-09-21",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-05",
       "wash_relevance": "medium",
       "days_left": 468
     },
@@ -663,12 +663,12 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "Strengthening evidence-based policies for the resilience of European agriculture and forestry and related supply chains against crises and systemic risks",
+      "title": "Governance, sustainable development and international politics of a future ice-free Arctic",
       "donor": "European Commission",
       "countries": [],
       "published": "2027-04-20T00:00:00.000+0000",
       "deadline": "2027-09-23",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-02",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01",
       "wash_relevance": "medium",
       "days_left": 470
     },
@@ -696,12 +696,12 @@
     },
     {
       "source_system": "EU Funding & Tenders Portal",
-      "title": "Governance, sustainable development and international politics of a future ice-free Arctic",
+      "title": "Strengthening evidence-based policies for the resilience of European agriculture and forestry and related supply chains against crises and systemic risks",
       "donor": "European Commission",
       "countries": [],
       "published": "2027-04-20T00:00:00.000+0000",
       "deadline": "2027-09-23",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-02",
       "wash_relevance": "medium",
       "days_left": 470
     },
