@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T22:59:27.842645+00:00",
+  "generated_at": "2026-06-24T22:59:17.915668+00:00",
   "source_stats": {
     "Grants.gov (USAID/BHA, US federal)": 70,
     "EU Funding & Tenders Portal": 25,
@@ -20,7 +20,7 @@
       "url": "https://www.grants.gov/search-results-detail/362621",
       "opportunity_number": "S-DR860-26-NOFO-0004",
       "wash_relevance": "medium",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "source_system": "Grants.gov",
@@ -32,7 +32,7 @@
       "url": "https://www.grants.gov/search-results-detail/362614",
       "opportunity_number": "G26AS00123",
       "wash_relevance": "medium",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "source_system": "Grants.gov",
@@ -44,7 +44,7 @@
       "url": "https://www.grants.gov/search-results-detail/362136",
       "opportunity_number": "W81EWF-26-SOI-0005",
       "wash_relevance": "medium",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "source_system": "Grants.gov",
@@ -56,7 +56,7 @@
       "url": "https://www.grants.gov/search-results-detail/362608",
       "opportunity_number": "G26AS00120",
       "wash_relevance": "medium",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "source_system": "Grants.gov",
@@ -68,7 +68,7 @@
       "url": "https://www.grants.gov/search-results-detail/362158",
       "opportunity_number": "EPA-R5-GL2026-PCA",
       "wash_relevance": "medium",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "source_system": "Grants.gov",
@@ -80,7 +80,7 @@
       "url": "https://www.grants.gov/search-results-detail/362626",
       "opportunity_number": "S-DR860-26-NOFO-0006",
       "wash_relevance": "medium",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "source_system": "Grants.gov",
@@ -92,7 +92,7 @@
       "url": "https://www.grants.gov/search-results-detail/361829",
       "opportunity_number": "PDS-001-FY2026",
       "wash_relevance": "medium",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "source_system": "Grants.gov",
@@ -104,7 +104,7 @@
       "url": "https://www.grants.gov/search-results-detail/362110",
       "opportunity_number": "NOAA-NMFS-PIR-2026-33156",
       "wash_relevance": "medium",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "source_system": "Grants.gov",
@@ -116,7 +116,7 @@
       "url": "https://www.grants.gov/search-results-detail/362617",
       "opportunity_number": "FY26BRAPDS0002",
       "wash_relevance": "medium",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "source_system": "Grants.gov",
@@ -128,7 +128,7 @@
       "url": "https://www.grants.gov/search-results-detail/362189",
       "opportunity_number": "W81EWF-26-SOI-0004",
       "wash_relevance": "medium",
-      "days_left": 13
+      "days_left": 12
     },
     {
       "source_system": "Grants.gov",
@@ -140,7 +140,7 @@
       "url": "https://www.grants.gov/search-results-detail/360269",
       "opportunity_number": "RFA-CK-26-104",
       "wash_relevance": "medium",
-      "days_left": 13
+      "days_left": 12
     },
     {
       "source_system": "Grants.gov",
@@ -152,7 +152,7 @@
       "url": "https://www.grants.gov/search-results-detail/361375",
       "opportunity_number": "HRSA-26-066",
       "wash_relevance": "medium",
-      "days_left": 15
+      "days_left": 14
     },
     {
       "source_system": "Grants.gov",
@@ -164,7 +164,7 @@
       "url": "https://www.grants.gov/search-results-detail/361417",
       "opportunity_number": "R25AS00280",
       "wash_relevance": "medium",
-      "days_left": 15
+      "days_left": 14
     },
     {
       "source_system": "Grants.gov",
@@ -176,7 +176,7 @@
       "url": "https://www.grants.gov/search-results-detail/362357",
       "opportunity_number": "W81EWF-26-SOI-0003",
       "wash_relevance": "medium",
-      "days_left": 16
+      "days_left": 15
     },
     {
       "source_system": "Grants.gov",
@@ -188,7 +188,7 @@
       "url": "https://www.grants.gov/search-results-detail/362292",
       "opportunity_number": "HRSA-26-085",
       "wash_relevance": "medium",
-      "days_left": 17
+      "days_left": 16
     },
     {
       "source_system": "Grants.gov",
@@ -200,7 +200,7 @@
       "url": "https://www.grants.gov/search-results-detail/362758",
       "opportunity_number": "S-DR860-26-NOFO-0003",
       "wash_relevance": "medium",
-      "days_left": 17
+      "days_left": 16
     },
     {
       "source_system": "Grants.gov",
@@ -212,7 +212,7 @@
       "url": "https://www.grants.gov/search-results-detail/361576",
       "opportunity_number": "TI-26-005",
       "wash_relevance": "medium",
-      "days_left": 20
+      "days_left": 19
     },
     {
       "source_system": "Grants.gov",
@@ -224,7 +224,7 @@
       "url": "https://www.grants.gov/search-results-detail/362429",
       "opportunity_number": "PAS-KWT-FY26-01",
       "wash_relevance": "medium",
-      "days_left": 22
+      "days_left": 21
     },
     {
       "source_system": "Grants.gov",
@@ -236,7 +236,7 @@
       "url": "https://www.grants.gov/search-results-detail/362385",
       "opportunity_number": "PD-LAPAZ-FY26-02",
       "wash_relevance": "medium",
-      "days_left": 22
+      "days_left": 21
     },
     {
       "source_system": "Grants.gov",
@@ -248,7 +248,7 @@
       "url": "https://www.grants.gov/search-results-detail/362503",
       "opportunity_number": "PDS-GUA-FY26-01",
       "wash_relevance": "medium",
-      "days_left": 22
+      "days_left": 21
     },
     {
       "source_system": "Grants.gov",
@@ -260,7 +260,7 @@
       "url": "https://www.grants.gov/search-results-detail/362623",
       "opportunity_number": "PDS-UAE-02-FY2026",
       "wash_relevance": "medium",
-      "days_left": 22
+      "days_left": 21
     },
     {
       "source_system": "Grants.gov",
@@ -272,7 +272,7 @@
       "url": "https://www.grants.gov/search-results-detail/362657",
       "opportunity_number": "FHWA-BIT3-26-001",
       "wash_relevance": "medium",
-      "days_left": 23
+      "days_left": 22
     },
     {
       "source_system": "Grants.gov",
@@ -284,7 +284,7 @@
       "url": "https://www.grants.gov/search-results-detail/362702",
       "opportunity_number": "PD-FY26-CANADA-NOFO-02",
       "wash_relevance": "medium",
-      "days_left": 24
+      "days_left": 23
     },
     {
       "source_system": "Grants.gov",
@@ -296,7 +296,7 @@
       "url": "https://www.grants.gov/search-results-detail/362877",
       "opportunity_number": "DHS-26-MT-143-00-01",
       "wash_relevance": "medium",
-      "days_left": 29
+      "days_left": 28
     },
     {
       "source_system": "Grants.gov",
@@ -308,7 +308,7 @@
       "url": "https://www.grants.gov/search-results-detail/362564",
       "opportunity_number": "PD-MEX-FY26-01",
       "wash_relevance": "medium",
-      "days_left": 38
+      "days_left": 37
     },
     {
       "source_system": "Grants.gov",
@@ -320,7 +320,7 @@
       "url": "https://www.grants.gov/search-results-detail/362892",
       "opportunity_number": "PD-FY26-CANADA-NOFO-003",
       "wash_relevance": "medium",
-      "days_left": 38
+      "days_left": 37
     },
     {
       "source_system": "Grants.gov",
@@ -332,7 +332,7 @@
       "url": "https://www.grants.gov/search-results-detail/362763",
       "opportunity_number": "PD-FY26-CANADA-NOFO-001",
       "wash_relevance": "medium",
-      "days_left": 38
+      "days_left": 37
     },
     {
       "source_system": "Grants.gov",
@@ -344,7 +344,7 @@
       "url": "https://www.grants.gov/search-results-detail/362863",
       "opportunity_number": "PAS-JAKARTA-FY26-04",
       "wash_relevance": "medium",
-      "days_left": 45
+      "days_left": 44
     },
     {
       "source_system": "Grants.gov",
@@ -356,7 +356,7 @@
       "url": "https://www.grants.gov/search-results-detail/362903",
       "opportunity_number": "OFOP0002813",
       "wash_relevance": "medium",
-      "days_left": 46
+      "days_left": 45
     },
     {
       "source_system": "Grants.gov",
@@ -368,7 +368,7 @@
       "url": "https://www.grants.gov/search-results-detail/362798",
       "opportunity_number": "EPA-OW-OWM-26-01",
       "wash_relevance": "medium",
-      "days_left": 52
+      "days_left": 51
     },
     {
       "source_system": "Grants.gov",
@@ -380,7 +380,7 @@
       "url": "https://www.grants.gov/search-results-detail/362383",
       "opportunity_number": "PD-LAPAZ-FY26-01",
       "wash_relevance": "medium",
-      "days_left": 53
+      "days_left": 52
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -391,7 +391,7 @@
       "deadline": "2026-09-17",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-ZEROPOLLUTION-03",
       "wash_relevance": "medium",
-      "days_left": 86
+      "days_left": 85
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -402,7 +402,7 @@
       "deadline": "2026-09-17",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-BIODIV-02",
       "wash_relevance": "medium",
-      "days_left": 86
+      "days_left": 85
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -413,7 +413,7 @@
       "deadline": "2026-09-17",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-ZEROPOLLUTION-01",
       "wash_relevance": "medium",
-      "days_left": 86
+      "days_left": 85
     },
     {
       "source_system": "Grants.gov",
@@ -425,7 +425,7 @@
       "url": "https://www.grants.gov/search-results-detail/362644",
       "opportunity_number": "R26AS00021",
       "wash_relevance": "medium",
-      "days_left": 92
+      "days_left": 91
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -436,7 +436,7 @@
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-TRANSFO-08",
       "wash_relevance": "medium",
-      "days_left": 92
+      "days_left": 91
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -447,7 +447,7 @@
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-02",
       "wash_relevance": "medium",
-      "days_left": 92
+      "days_left": 91
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -458,7 +458,7 @@
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-01-CLIMA-06",
       "wash_relevance": "medium",
-      "days_left": 92
+      "days_left": 91
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -469,7 +469,7 @@
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-05",
       "wash_relevance": "medium",
-      "days_left": 92
+      "days_left": 91
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -480,7 +480,7 @@
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-01",
       "wash_relevance": "medium",
-      "days_left": 92
+      "days_left": 91
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -491,7 +491,7 @@
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-04",
       "wash_relevance": "medium",
-      "days_left": 92
+      "days_left": 91
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -502,7 +502,7 @@
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-03-OCEAN-03",
       "wash_relevance": "medium",
-      "days_left": 92
+      "days_left": 91
     },
     {
       "source_system": "Grants.gov",
@@ -514,7 +514,7 @@
       "url": "https://www.grants.gov/search-results-detail/357021",
       "opportunity_number": "PAR-25-221",
       "wash_relevance": "medium",
-      "days_left": 198
+      "days_left": 197
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -525,7 +525,7 @@
       "deadline": "2027-04-08",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01-two-stage",
       "wash_relevance": "medium",
-      "days_left": 289
+      "days_left": 288
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -536,7 +536,7 @@
       "deadline": "2027-04-08",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-FARM2FORK-02-two-stage",
       "wash_relevance": "medium",
-      "days_left": 289
+      "days_left": 288
     },
     {
       "source_system": "Grants.gov",
@@ -548,7 +548,7 @@
       "url": "https://www.grants.gov/search-results-detail/362396",
       "opportunity_number": "R26AS00079",
       "wash_relevance": "medium",
-      "days_left": 429
+      "days_left": 428
     },
     {
       "source_system": "Grants.gov",
@@ -560,7 +560,7 @@
       "url": "https://www.grants.gov/search-results-detail/362395",
       "opportunity_number": "R26AS00034",
       "wash_relevance": "medium",
-      "days_left": 429
+      "days_left": 428
     },
     {
       "source_system": "Grants.gov",
@@ -572,7 +572,7 @@
       "url": "https://www.grants.gov/search-results-detail/362394",
       "opportunity_number": "R26AS00017",
       "wash_relevance": "medium",
-      "days_left": 442
+      "days_left": 441
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -583,7 +583,7 @@
       "deadline": "2027-09-21",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-02",
       "wash_relevance": "medium",
-      "days_left": 455
+      "days_left": 454
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -594,7 +594,7 @@
       "deadline": "2027-09-21",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-01",
       "wash_relevance": "medium",
-      "days_left": 455
+      "days_left": 454
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -605,7 +605,7 @@
       "deadline": "2027-09-21",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-04",
       "wash_relevance": "medium",
-      "days_left": 455
+      "days_left": 454
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -616,7 +616,7 @@
       "deadline": "2027-09-21",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-05",
       "wash_relevance": "medium",
-      "days_left": 455
+      "days_left": 454
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -627,7 +627,7 @@
       "deadline": "2027-09-21",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-03",
       "wash_relevance": "medium",
-      "days_left": 455
+      "days_left": 454
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -638,7 +638,7 @@
       "deadline": "2027-09-22",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-07-CLIMA-CIT-CCRI-02",
       "wash_relevance": "medium",
-      "days_left": 456
+      "days_left": 455
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -649,7 +649,7 @@
       "deadline": "2027-09-22",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-07-CLIMA-CIT-NEB-01",
       "wash_relevance": "medium",
-      "days_left": 456
+      "days_left": 455
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -660,7 +660,7 @@
       "deadline": "2027-09-22",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-ZEROPOLLUTION-03",
       "wash_relevance": "medium",
-      "days_left": 456
+      "days_left": 455
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -671,7 +671,7 @@
       "deadline": "2027-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-FARM2FORK-01",
       "wash_relevance": "medium",
-      "days_left": 457
+      "days_left": 456
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -682,7 +682,7 @@
       "deadline": "2027-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01",
       "wash_relevance": "medium",
-      "days_left": 457
+      "days_left": 456
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -693,7 +693,7 @@
       "deadline": "2027-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-03",
       "wash_relevance": "medium",
-      "days_left": 457
+      "days_left": 456
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -704,7 +704,7 @@
       "deadline": "2027-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-04",
       "wash_relevance": "medium",
-      "days_left": 457
+      "days_left": 456
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -715,7 +715,7 @@
       "deadline": "2027-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-02",
       "wash_relevance": "medium",
-      "days_left": 457
+      "days_left": 456
     },
     {
       "source_system": "Grants.gov",
@@ -727,7 +727,7 @@
       "url": "https://www.grants.gov/search-results-detail/362755",
       "opportunity_number": "R26AS00349",
       "wash_relevance": "medium",
-      "days_left": 602
+      "days_left": 601
     },
     {
       "source_system": "Grants.gov",
@@ -739,7 +739,7 @@
       "url": "https://www.grants.gov/search-results-detail/355417",
       "opportunity_number": "RFA-OH-25-002",
       "wash_relevance": "medium",
-      "days_left": 856
+      "days_left": 855
     },
     {
       "source_system": "Grants.gov",
@@ -751,7 +751,7 @@
       "url": "https://www.grants.gov/search-results-detail/362325",
       "opportunity_number": "ETA-TEGL-09-24-CH1",
       "wash_relevance": "medium",
-      "days_left": 922
+      "days_left": 921
     },
     {
       "source_system": "Grants.gov",
@@ -763,7 +763,7 @@
       "url": "https://www.grants.gov/search-results-detail/362715",
       "opportunity_number": "P26AS00125",
       "wash_relevance": "medium",
-      "days_left": 1592
+      "days_left": 1591
     },
     {
       "source_system": "Grants.gov",
