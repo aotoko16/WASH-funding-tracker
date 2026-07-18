@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T22:38:46.280093+00:00",
+  "generated_at": "2026-07-18T22:38:01.203919+00:00",
   "source_stats": {
     "Grants.gov (USAID/BHA, US federal)": 70,
     "EU Funding & Tenders Portal": 25,
@@ -12,18 +12,6 @@
   "opportunities": [
     {
       "source_system": "Grants.gov",
-      "title": "American Studies Tour for Canadian Students",
-      "donor": "U.S. Mission to Canada",
-      "countries": [],
-      "published": "06/05/2026",
-      "deadline": "2026-07-17",
-      "url": "https://www.grants.gov/search-results-detail/362702",
-      "opportunity_number": "PD-FY26-CANADA-NOFO-02",
-      "wash_relevance": "medium",
-      "days_left": 0
-    },
-    {
-      "source_system": "Grants.gov",
       "title": "Butte Creek/Sutter Bypass Weir 1 Improvement Design and Permitting Project",
       "donor": "Fish and Wildlife Service",
       "countries": [],
@@ -32,7 +20,7 @@
       "url": "https://www.grants.gov/search-results-detail/362499",
       "opportunity_number": "F26AS00022",
       "wash_relevance": "medium",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "source_system": "Grants.gov",
@@ -44,7 +32,7 @@
       "url": "https://www.grants.gov/search-results-detail/362875",
       "opportunity_number": "WH-AST-26-001",
       "wash_relevance": "medium",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "source_system": "Grants.gov",
@@ -56,7 +44,7 @@
       "url": "https://www.grants.gov/search-results-detail/362878",
       "opportunity_number": "WH-AST-26-002",
       "wash_relevance": "medium",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "source_system": "Grants.gov",
@@ -68,7 +56,7 @@
       "url": "https://www.grants.gov/search-results-detail/362877",
       "opportunity_number": "DHS-26-MT-143-00-01",
       "wash_relevance": "medium",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "source_system": "Grants.gov",
@@ -80,7 +68,7 @@
       "url": "https://www.grants.gov/search-results-detail/362892",
       "opportunity_number": "PD-FY26-CANADA-NOFO-003",
       "wash_relevance": "medium",
-      "days_left": 14
+      "days_left": 13
     },
     {
       "source_system": "Grants.gov",
@@ -92,7 +80,7 @@
       "url": "https://www.grants.gov/search-results-detail/362763",
       "opportunity_number": "PD-FY26-CANADA-NOFO-001",
       "wash_relevance": "medium",
-      "days_left": 14
+      "days_left": 13
     },
     {
       "source_system": "Grants.gov",
@@ -104,7 +92,7 @@
       "url": "https://www.grants.gov/search-results-detail/362106",
       "opportunity_number": "PDSKLEDUSA2026",
       "wash_relevance": "medium",
-      "days_left": 14
+      "days_left": 13
     },
     {
       "source_system": "Grants.gov",
@@ -116,7 +104,7 @@
       "url": "https://www.grants.gov/search-results-detail/363079",
       "opportunity_number": "26-MMR-NOFO-001",
       "wash_relevance": "medium",
-      "days_left": 14
+      "days_left": 13
     },
     {
       "source_system": "Grants.gov",
@@ -128,7 +116,7 @@
       "url": "https://www.grants.gov/search-results-detail/363062",
       "opportunity_number": "FY26-PDS-HCMC-01",
       "wash_relevance": "medium",
-      "days_left": 16
+      "days_left": 15
     },
     {
       "source_system": "Grants.gov",
@@ -140,7 +128,7 @@
       "url": "https://www.grants.gov/search-results-detail/363093",
       "opportunity_number": "PDS-ECUADOR-FY26-01",
       "wash_relevance": "medium",
-      "days_left": 20
+      "days_left": 19
     },
     {
       "source_system": "Grants.gov",
@@ -152,7 +140,7 @@
       "url": "https://www.grants.gov/search-results-detail/362863",
       "opportunity_number": "PAS-JAKARTA-FY26-04",
       "wash_relevance": "medium",
-      "days_left": 21
+      "days_left": 20
     },
     {
       "source_system": "Grants.gov",
@@ -164,7 +152,7 @@
       "url": "https://www.grants.gov/search-results-detail/362903",
       "opportunity_number": "OFOP0002813",
       "wash_relevance": "medium",
-      "days_left": 22
+      "days_left": 21
     },
     {
       "source_system": "Grants.gov",
@@ -176,7 +164,7 @@
       "url": "https://www.grants.gov/search-results-detail/363121",
       "opportunity_number": "PAS-ALG-FY26-02",
       "wash_relevance": "medium",
-      "days_left": 24
+      "days_left": 23
     },
     {
       "source_system": "Grants.gov",
@@ -188,7 +176,7 @@
       "url": "https://www.grants.gov/search-results-detail/362564",
       "opportunity_number": "PD-MEX-FY26-01",
       "wash_relevance": "medium",
-      "days_left": 24
+      "days_left": 23
     },
     {
       "source_system": "Grants.gov",
@@ -200,7 +188,7 @@
       "url": "https://www.grants.gov/search-results-detail/362798",
       "opportunity_number": "EPA-OW-OWM-26-01",
       "wash_relevance": "medium",
-      "days_left": 28
+      "days_left": 27
     },
     {
       "source_system": "Grants.gov",
@@ -212,7 +200,7 @@
       "url": "https://www.grants.gov/search-results-detail/360342",
       "opportunity_number": "CDC-RFA-JG-26-0056",
       "wash_relevance": "medium",
-      "days_left": 28
+      "days_left": 27
     },
     {
       "source_system": "Grants.gov",
@@ -224,7 +212,7 @@
       "url": "https://www.grants.gov/search-results-detail/360339",
       "opportunity_number": "CDC-RFA-JG-26-0054",
       "wash_relevance": "medium",
-      "days_left": 28
+      "days_left": 27
     },
     {
       "source_system": "Grants.gov",
@@ -236,7 +224,7 @@
       "url": "https://www.grants.gov/search-results-detail/363085",
       "opportunity_number": "PDS-BUJUMBURA-FY26-02",
       "wash_relevance": "medium",
-      "days_left": 28
+      "days_left": 27
     },
     {
       "source_system": "Grants.gov",
@@ -248,7 +236,7 @@
       "url": "https://www.grants.gov/search-results-detail/362383",
       "opportunity_number": "PD-LAPAZ-FY26-01",
       "wash_relevance": "medium",
-      "days_left": 29
+      "days_left": 28
     },
     {
       "source_system": "Grants.gov",
@@ -260,7 +248,19 @@
       "url": "https://www.grants.gov/search-results-detail/363219",
       "opportunity_number": "DFOP0019295",
       "wash_relevance": "medium",
-      "days_left": 31
+      "days_left": 30
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "Enhancing Biotechnology Market Opportunities for U.S. Exporters and American Farmers",
+      "donor": "Foreign Agricultural Service",
+      "countries": [],
+      "published": "07/15/2026",
+      "deadline": "2026-08-17",
+      "url": "https://www.grants.gov/search-results-detail/363193",
+      "opportunity_number": "USDA-FAS-10960-0700-109-26-0001",
+      "wash_relevance": "medium",
+      "days_left": 30
     },
     {
       "source_system": "Grants.gov",
@@ -272,7 +272,7 @@
       "url": "https://www.grants.gov/search-results-detail/362128",
       "opportunity_number": "HHS-2026-ACF-ACYF-TS-0013",
       "wash_relevance": "medium",
-      "days_left": 31
+      "days_left": 30
     },
     {
       "source_system": "Grants.gov",
@@ -284,7 +284,7 @@
       "url": "https://www.grants.gov/search-results-detail/362030",
       "opportunity_number": "HHS-2026-ACF-ACYF-SR-0012",
       "wash_relevance": "medium",
-      "days_left": 31
+      "days_left": 30
     },
     {
       "source_system": "Grants.gov",
@@ -296,7 +296,7 @@
       "url": "https://www.grants.gov/search-results-detail/363065",
       "opportunity_number": "DE-FOA-0003627",
       "wash_relevance": "medium",
-      "days_left": 53
+      "days_left": 52
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -307,7 +307,7 @@
       "deadline": "2026-09-17",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-ZEROPOLLUTION-03",
       "wash_relevance": "medium",
-      "days_left": 62
+      "days_left": 61
     },
     {
       "source_system": "Grants.gov",
@@ -319,7 +319,7 @@
       "url": "https://www.grants.gov/search-results-detail/362644",
       "opportunity_number": "R26AS00021",
       "wash_relevance": "medium",
-      "days_left": 68
+      "days_left": 67
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -330,7 +330,7 @@
       "deadline": "2026-09-23",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2026-01-TRANSFO-08",
       "wash_relevance": "medium",
-      "days_left": 68
+      "days_left": 67
     },
     {
       "source_system": "Grants.gov",
@@ -342,7 +342,7 @@
       "url": "https://www.grants.gov/search-results-detail/362358",
       "opportunity_number": "G26AS00110",
       "wash_relevance": "medium",
-      "days_left": 75
+      "days_left": 74
     },
     {
       "source_system": "Grants.gov",
@@ -354,7 +354,7 @@
       "url": "https://www.grants.gov/search-results-detail/356559",
       "opportunity_number": "GR-RCE-25-001",
       "wash_relevance": "medium",
-      "days_left": 106
+      "days_left": 105
     },
     {
       "source_system": "Grants.gov",
@@ -366,7 +366,7 @@
       "url": "https://www.grants.gov/search-results-detail/357021",
       "opportunity_number": "PAR-25-221",
       "wash_relevance": "medium",
-      "days_left": 174
+      "days_left": 173
     },
     {
       "source_system": "Grants.gov",
@@ -378,7 +378,7 @@
       "url": "https://www.grants.gov/search-results-detail/363057",
       "opportunity_number": "DFOP0017890",
       "wash_relevance": "medium",
-      "days_left": 212
+      "days_left": 211
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -389,7 +389,7 @@
       "deadline": "2027-04-08",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01-two-stage",
       "wash_relevance": "medium",
-      "days_left": 265
+      "days_left": 264
     },
     {
       "source_system": "Grants.gov",
@@ -401,7 +401,7 @@
       "url": "https://www.grants.gov/search-results-detail/361417",
       "opportunity_number": "R25AS00280",
       "wash_relevance": "medium",
-      "days_left": 270
+      "days_left": 269
     },
     {
       "source_system": "Grants.gov",
@@ -413,7 +413,7 @@
       "url": "https://www.grants.gov/search-results-detail/362396",
       "opportunity_number": "R26AS00079",
       "wash_relevance": "medium",
-      "days_left": 405
+      "days_left": 404
     },
     {
       "source_system": "Grants.gov",
@@ -425,7 +425,7 @@
       "url": "https://www.grants.gov/search-results-detail/362395",
       "opportunity_number": "R26AS00034",
       "wash_relevance": "medium",
-      "days_left": 405
+      "days_left": 404
     },
     {
       "source_system": "Grants.gov",
@@ -437,7 +437,7 @@
       "url": "https://www.grants.gov/search-results-detail/362394",
       "opportunity_number": "R26AS00017",
       "wash_relevance": "medium",
-      "days_left": 418
+      "days_left": 417
     },
     {
       "source_system": "Grants.gov",
@@ -449,7 +449,7 @@
       "url": "https://www.grants.gov/search-results-detail/361822",
       "opportunity_number": "HHS-2026-ACF-ORR-ZU-0019",
       "wash_relevance": "medium",
-      "days_left": 441
+      "days_left": 440
     },
     {
       "source_system": "Grants.gov",
@@ -461,7 +461,7 @@
       "url": "https://www.grants.gov/search-results-detail/362755",
       "opportunity_number": "R26AS00349",
       "wash_relevance": "medium",
-      "days_left": 578
+      "days_left": 577
     },
     {
       "source_system": "Grants.gov",
@@ -473,7 +473,7 @@
       "url": "https://www.grants.gov/search-results-detail/355417",
       "opportunity_number": "RFA-OH-25-002",
       "wash_relevance": "medium",
-      "days_left": 832
+      "days_left": 831
     },
     {
       "source_system": "Grants.gov",
@@ -485,7 +485,7 @@
       "url": "https://www.grants.gov/search-results-detail/362325",
       "opportunity_number": "ETA-TEGL-09-24-CH1",
       "wash_relevance": "medium",
-      "days_left": 898
+      "days_left": 897
     },
     {
       "source_system": "Grants.gov",
@@ -497,7 +497,7 @@
       "url": "https://www.grants.gov/search-results-detail/362715",
       "opportunity_number": "P26AS00125",
       "wash_relevance": "medium",
-      "days_left": 1568
+      "days_left": 1567
     },
     {
       "source_system": "Grants.gov",
@@ -509,7 +509,7 @@
       "url": "https://www.grants.gov/search-results-detail/362717",
       "opportunity_number": "P26AS00146",
       "wash_relevance": "medium",
-      "days_left": 1597
+      "days_left": 1596
     },
     {
       "source_system": "Grants.gov",
