@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T01:27:54.366245+00:00",
+  "generated_at": "2026-08-07T22:26:28.384117+00:00",
   "source_stats": {
     "Grants.gov (USAID/BHA, US federal)": 69,
     "EU Funding & Tenders Portal": 25,
@@ -8,7 +8,7 @@
     "Donor pages (Gates/ADB/World Bank)": 0,
     "ReliefWeb (humanitarian appeals)": 0
   },
-  "count": 67,
+  "count": 68,
   "opportunities": [
     {
       "source_system": "Grants.gov",
@@ -192,6 +192,18 @@
     },
     {
       "source_system": "Grants.gov",
+      "title": "Promoting Civilizational Values",
+      "donor": "Bureau of Democracy Human Rights and Labor",
+      "countries": [],
+      "published": "08/07/2026",
+      "deadline": "2026-08-21",
+      "url": "https://www.grants.gov/search-results-detail/363505",
+      "opportunity_number": "DFOP0019542",
+      "wash_relevance": "medium",
+      "days_left": 14
+    },
+    {
+      "source_system": "Grants.gov",
       "title": "Building Skills, Strengthening Communities, and Advancing Innovation in Northwest Mexico",
       "donor": "U.S. Mission to Mexico",
       "countries": [],
@@ -261,6 +273,18 @@
       "opportunity_number": "PDS-UKRAINE-FY26-02",
       "wash_relevance": "medium",
       "days_left": 24
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "Media Literacy and Capacity Building Workshop Series",
+      "donor": "U.S. Mission to Indonesia",
+      "countries": [],
+      "published": "08/03/2026",
+      "deadline": "2026-09-02",
+      "url": "https://www.grants.gov/search-results-detail/363441",
+      "opportunity_number": "PAS-JAKARTA-FY26-11",
+      "wash_relevance": "medium",
+      "days_left": 26
     },
     {
       "source_system": "Grants.gov",
@@ -426,18 +450,6 @@
       "opportunity_number": "R26AS00034",
       "wash_relevance": "medium",
       "days_left": 384
-    },
-    {
-      "source_system": "Grants.gov",
-      "title": "Innovative Traffic Safety Enforcement (ITSE) Grant Program",
-      "donor": "National Highway Traffic Safety Administration",
-      "countries": [],
-      "published": "08/03/2026",
-      "deadline": "2027-09-01",
-      "url": "https://www.grants.gov/search-results-detail/363446",
-      "opportunity_number": "NHTSA-693JJ926R000024-FY26",
-      "wash_relevance": "medium",
-      "days_left": 390
     },
     {
       "source_system": "Grants.gov",
