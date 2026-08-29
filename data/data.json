@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T03:25:28.736940+00:00",
+  "generated_at": "2026-08-29T23:41:07.821454+00:00",
   "source_stats": {
     "Grants.gov (USAID/BHA, US federal)": 70,
     "EU Funding & Tenders Portal": 25,
@@ -8,7 +8,7 @@
     "Donor pages (Gates/ADB/World Bank)": 0,
     "ReliefWeb (humanitarian appeals)": 0
   },
-  "count": 67,
+  "count": 69,
   "opportunities": [
     {
       "source_system": "Grants.gov",
@@ -609,6 +609,18 @@
     },
     {
       "source_system": "Grants.gov",
+      "title": "Atmosphere Cluster",
+      "donor": "U.S. National Science Foundation",
+      "countries": [],
+      "published": "09/26/2024",
+      "deadline": null,
+      "url": "https://www.grants.gov/search-results-detail/356538",
+      "opportunity_number": "PD-24-7790",
+      "wash_relevance": "medium",
+      "days_left": null
+    },
+    {
+      "source_system": "Grants.gov",
       "title": "U.S. Mission to the United Nations-Geneva, Small Grants Program",
       "donor": "U.S. Mission to the United Nations",
       "countries": [],
@@ -676,6 +688,18 @@
       "deadline": null,
       "url": "https://www.grants.gov/search-results-detail/347569",
       "opportunity_number": "TIRDEMCOMMR2FY23",
+      "wash_relevance": "medium",
+      "days_left": null
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "Pacific Disaster Center",
+      "donor": "Washington Headquarters Services",
+      "countries": [],
+      "published": "08/12/2026",
+      "deadline": null,
+      "url": "https://www.grants.gov/search-results-detail/363549",
+      "opportunity_number": "HQ003426NFOECAD02",
       "wash_relevance": "medium",
       "days_left": null
     },
