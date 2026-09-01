@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-01T00:53:38.732718+00:00",
+  "generated_at": "2026-09-01T23:40:16.491120+00:00",
   "source_stats": {
-    "Grants.gov (USAID/BHA, US federal)": 70,
+    "Grants.gov (USAID/BHA, US federal)": 68,
     "EU Funding & Tenders Portal": 25,
     "UNGM (UN system tenders)": 0,
     "UN Partner Portal (CFEIs)": 0,
     "Donor pages (Gates/ADB/World Bank)": 0,
     "ReliefWeb (humanitarian appeals)": 0
   },
-  "count": 62,
+  "count": 68,
   "opportunities": [
     {
       "source_system": "Grants.gov",
@@ -119,6 +119,18 @@
       "days_left": 13
     },
     {
+      "source_system": "Grants.gov",
+      "title": "State Border Security Reinforcement Fund",
+      "donor": "Department of Homeland Security - FEMA",
+      "countries": [],
+      "published": "06/03/2026",
+      "deadline": "2026-09-17",
+      "url": "https://www.grants.gov/search-results-detail/362671",
+      "opportunity_number": "DHS-26-GPD-159-00-99",
+      "wash_relevance": "medium",
+      "days_left": 16
+    },
+    {
       "source_system": "EU Funding & Tenders Portal",
       "title": "Developing managed aquifer recharge techniques (MAR) in a rural context",
       "donor": "European Commission",
@@ -185,6 +197,18 @@
       "deadline": "2026-09-30",
       "url": "https://www.grants.gov/search-results-detail/362358",
       "opportunity_number": "G26AS00110",
+      "wash_relevance": "medium",
+      "days_left": 29
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "NEA/AC Regional Annual Program Statement",
+      "donor": "Bureau of Near Eastern Affairs",
+      "countries": [],
+      "published": "08/21/2026",
+      "deadline": "2026-09-30",
+      "url": "https://www.grants.gov/search-results-detail/363689",
+      "opportunity_number": "DFOP0018712",
       "wash_relevance": "medium",
       "days_left": 29
     },
@@ -283,6 +307,17 @@
       "opportunity_number": "23-525",
       "wash_relevance": "medium",
       "days_left": 132
+    },
+    {
+      "source_system": "EU Funding & Tenders Portal",
+      "title": "Strengthening cybersecurity capacities of European SMEs  with cybersecure AI-powered solutions",
+      "donor": "European Commission",
+      "countries": [],
+      "published": "2026-09-01T00:00:00.000+0000",
+      "deadline": "2027-01-14",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-11-AI4SME",
+      "wash_relevance": "medium",
+      "days_left": 135
     },
     {
       "source_system": "Grants.gov",
@@ -436,6 +471,30 @@
       "deadline": "2099-01-01",
       "url": "https://www.grants.gov/search-results-detail/363383",
       "opportunity_number": "DFOP0018775",
+      "wash_relevance": "medium",
+      "days_left": 26420
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "Program to End Modern Slavery Annual Program Statement",
+      "donor": "Office to Monitor-Combat Trafficking in Persons",
+      "countries": [],
+      "published": "07/29/2026",
+      "deadline": "2099-01-01",
+      "url": "https://www.grants.gov/search-results-detail/363381",
+      "opportunity_number": "DFOP0018770",
+      "wash_relevance": "medium",
+      "days_left": 26420
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "Annual Program Statement for U.S. Presentation at International Architecture Biennales",
+      "donor": "Bureau Of Educational and Cultural Affairs",
+      "countries": [],
+      "published": "07/17/2026",
+      "deadline": "2099-01-01",
+      "url": "https://www.grants.gov/search-results-detail/363225",
+      "opportunity_number": "DFOP0017180",
       "wash_relevance": "medium",
       "days_left": 26420
     },
@@ -616,6 +675,18 @@
       "deadline": null,
       "url": "https://www.grants.gov/search-results-detail/363549",
       "opportunity_number": "HQ003426NFOECAD02",
+      "wash_relevance": "medium",
+      "days_left": null
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "Alumni Engagement Innovation Fund (AEIF): Sierra Leone",
+      "donor": "U.S. Mission to Sierra Leone",
+      "countries": [],
+      "published": "03/24/2026",
+      "deadline": null,
+      "url": "https://www.grants.gov/search-results-detail/361608",
+      "opportunity_number": "2026-FREETOWN-AEIF-01",
       "wash_relevance": "medium",
       "days_left": null
     },
