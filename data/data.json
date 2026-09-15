@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:04:31.770608+00:00",
+  "generated_at": "2026-09-15T23:49:02.243684+00:00",
   "source_stats": {
     "Grants.gov (USAID/BHA, US federal)": 70,
     "EU Funding & Tenders Portal": 25,
@@ -8,7 +8,7 @@
     "Donor pages (Gates/ADB/World Bank)": 0,
     "ReliefWeb (humanitarian appeals)": 0
   },
-  "count": 69,
+  "count": 70,
   "opportunities": [
     {
       "source_system": "Grants.gov",
@@ -44,6 +44,18 @@
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-ZEROPOLLUTION-03",
       "wash_relevance": "medium",
       "days_left": 2
+    },
+    {
+      "source_system": "Grants.gov",
+      "title": "U.S. Mission to Australia 2026 Annual Program Statement",
+      "donor": "U.S. Mission to Australia",
+      "countries": [],
+      "published": "08/25/2026",
+      "deadline": "2026-09-20",
+      "url": "https://www.grants.gov/search-results-detail/363708",
+      "opportunity_number": "PDS-AUSTRALIA-2026-01",
+      "wash_relevance": "medium",
+      "days_left": 5
     },
     {
       "source_system": "EU Funding & Tenders Portal",
