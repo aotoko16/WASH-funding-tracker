@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T00:02:45.257171+00:00",
+  "generated_at": "2026-10-17T23:38:16.537034+00:00",
   "source_stats": {
-    "Grants.gov (USAID/BHA, US federal)": 69,
-    "EU Funding & Tenders Portal": 25,
+    "Grants.gov (USAID/BHA, US federal)": 67,
+    "EU Funding & Tenders Portal": 0,
     "UNGM (UN system tenders)": 0,
     "UN Partner Portal (CFEIs)": 0,
     "Donor pages (Gates/ADB/World Bank)": 0,
     "ReliefWeb (humanitarian appeals)": 0
   },
-  "count": 65,
+  "count": 63,
   "opportunities": [
     {
       "source_system": "Grants.gov",
@@ -203,17 +203,6 @@
       "days_left": 86
     },
     {
-      "source_system": "EU Funding & Tenders Portal",
-      "title": "Strengthening cybersecurity capacities of European SMEs  with cybersecure AI-powered solutions",
-      "donor": "European Commission",
-      "countries": [],
-      "published": "2026-09-01T00:00:00.000+0000",
-      "deadline": "2027-01-14",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-11-AI4SME",
-      "wash_relevance": "medium",
-      "days_left": 89
-    },
-    {
       "source_system": "Grants.gov",
       "title": "Advancing Global Health",
       "donor": "Bureau of Global Health Security and Diplomacy",
@@ -236,17 +225,6 @@
       "opportunity_number": "W911NF-20-S-0008",
       "wash_relevance": "medium",
       "days_left": 165
-    },
-    {
-      "source_system": "EU Funding & Tenders Portal",
-      "title": "Open topic: Innovative solutions for the European Water Resilience Strategy",
-      "donor": "European Commission",
-      "countries": [],
-      "published": "2027-02-04T00:00:00.000+0000",
-      "deadline": "2027-04-08",
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01-two-stage",
-      "wash_relevance": "medium",
-      "days_left": 173
     },
     {
       "source_system": "Grants.gov",
