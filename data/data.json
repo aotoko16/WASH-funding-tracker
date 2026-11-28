@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T03:52:12.835632+00:00",
+  "generated_at": "2026-11-28T03:38:10.514161+00:00",
   "source_stats": {
     "Grants.gov (USAID/BHA, US federal)": 68,
     "EU Funding & Tenders Portal": 25,
@@ -19,7 +19,7 @@
       "deadline": "2027-01-14",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-11-AI4SME",
       "wash_relevance": "medium",
-      "days_left": 48
+      "days_left": 47
     },
     {
       "source_system": "EU Funding & Tenders Portal",
@@ -30,7 +30,7 @@
       "deadline": "2027-04-08",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01-two-stage",
       "wash_relevance": "medium",
-      "days_left": 132
+      "days_left": 131
     }
   ]
 }
